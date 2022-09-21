@@ -64,7 +64,35 @@ log(n+index)
 
 13. semicolan is not mandatory but good to be consistent.  Generally , eslint is used to find problems in js 
 14. we can use single or double quotes there is no diff here in js.
-15.
+                  Map - Filter -Reduce 
+				  
+15.            [1,2,3,4,5].map(function(n){
+            return n*2;
+                      })	   the function is performed on each item of array .Basically to transform we use map. In map inside function we can return anything since it is for transformation.
+					  
+16.       [1,2,3,4,5].filter(function(n){
+            return n%2==0;
+                      })     	the function is performed on each item of array but filter always should return only boolean and only true values are printed 		
+
+17. reduce allows us to accumulate all values of array and redu e to single value.
+
+                       Callback
+
+function outerFunction(name,callback)    {
+    log(callback(name))
+}   
+
+var callback= function  (name){
+    return "hello" +name;
+
+
+}
+outerFunction("sai",callback);		
+
+outer function return inner function and inner function makes use of the other param in the outerFunction.
+
+18.			   
+               					  
                    				   
 				   
 				   

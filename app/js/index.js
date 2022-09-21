@@ -32,3 +32,43 @@ log(3+4+'2'+"5");
 
 
 log(10=='10')
+
+var item=[1,2,3,4,5].map(function(n){
+    return n*2;
+              })
+log(item)
+
+log("filter")
+
+var flter=[1,2,3,4,5].filter(function(n){
+    return n%2==0;
+              })
+              log(flter);
+
+
+var reduce=[1,2,3,4,5].reduce(function(accumulator,currentValue){
+                return accumulator+currentValue;
+                          })
+                          log("reduce");
+                          log(reduce);
+
+
+var testItem=[1,2,3,4,5].map(function(n){
+                            log(n*2)
+                                      })
+                        log(testItem) 
+                        //-- it return empty  ,,,,
+                    //    call back example
+
+function outerFunction(name,callback)    {
+    log(callback(name))
+}   
+
+var callback= function  (name){
+    return "hello" +name;
+
+
+}
+outerFunction("sai",callback);
+
+//  logs hello sai
