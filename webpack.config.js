@@ -34,7 +34,7 @@ module.exports = env => {
         },
         {
           test: /\.scss$/,
-          use: ["style-loader", "css-loader", "sass-loader"]
+          use: ["style-loader", "css-loader"]
         },
         {
           test: /\.(png|woff|woff2|eot|ttf|svg|jpg)(\?.*$|$)/,

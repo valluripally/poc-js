@@ -1,0 +1,73 @@
+To learn :
+1. diff b/w for and forEach
+2. String functions
+
+
+
+Javascript 
+
+1.Variables - to store value of different data types.
+2. var x = undefined means that we have nothing inside the variable x
+
+var Person={
+name:"sai",
+age:"20"
+};
+3. Object.values(Person) == sai,20 , we can get all values by using Object.values
+4.When we have nested objects Object.values will give us [object object] for the inner object.
+
+
+       arrays
+	   
+5. arrays allow u to store multiple values , we can have same or different data types in array but best practice to have them of same type.
+6.  names=["sai","deep"] names.length -- gives size of the array = 2
+7.  for( var n of names){
+log(n);
+}
+sai
+deep
+8.names.foreach(function(n,index){
+log(n+index)
+})
+                   Functions
+   
+9. Function is a procedure which is set of statements  that allows u to perform a task
+                   
+				   
+				   Loops
+				   
+10.				   differnce b/w break, continue is 
+				   var n=0;
+				   
+				   while(n>5){                      
+				  log(n)
+				   if(n==2)         0,1,2,
+				   {break;}
+				   n=n+1;
+				    
+				   }  --- breaks loops entirelty
+				   
+				   while(n>5){     0,1,3,4
+				   
+				    n=n+1;
+				   if(n==2)
+				   {continue;}
+				  log(n)
+				   }  --- continue skips that iteration and moves to next iteration
+				   
+				   Comparison and Logical operators
+				   
+11.  == compares 2 variables but ignores data type(log(10=='10') will be true this conversion of one data type to other is called coersion.
+      wheras 10==='10' will be false
+
+12.  typeof (0)  returns data type
+
+13. semicolan is not mandatory but good to be consistent.  Generally , eslint is used to find problems in js 
+14. we can use single or double quotes there is no diff here in js.
+15.
+                   				   
+				   
+				   
+				   
+  
+	   
